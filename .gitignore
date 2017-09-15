@@ -1,1 +1,3 @@
 .idea
+.vagrant
+vagrant/config/vagrant-local.yml
