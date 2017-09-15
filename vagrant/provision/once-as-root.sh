@@ -56,8 +56,8 @@ a2enmod proxy_fcgi setenvif
 a2enconf php7.0-fpm
 info "Configure Apache2"
 
-cp /vagrant/apache2/000-default.conf /etc/apache2/sites-available/
-cp /vagrant/apache2/envvars /etc/apache2/
+cp /vagrant/vagrant/apache2/000-default.conf /etc/apache2/sites-available/
+cp /vagrant/vagrant/apache2/envvars /etc/apache2/
 info "Installing dos2unix"
 apt-get install dos2unix -y
 apt-get install tofrodos -y
@@ -78,4 +78,12 @@ wget  "https://files.phpmyadmin.net/phpMyAdmin/4.6.4/phpMyAdmin-4.6.4-all-langua
 unzip /usr/share/phpMyAdmin-4.6.4-all-languages.zip -d /usr/share/
 mv /usr/share/phpMyAdmin-4.6.4-all-languages /usr/share/phpmyadmin/
 chmod -R 0755 /usr/share/phpmyadmin
+echo "Done!"
+
+echo "Installing WordPress"
+wget "https://wordpress.org/latest.zip" -P /var/www/html/ -q
+unzip /var/www/html/latest.zip -d /var/www/html/
+rm -rf /var/www/html/index.html
+mv /var/www/html/wordpress/* .
+rm -rf /var/www/html/wordpress
 echo "Done!"
