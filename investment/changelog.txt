@@ -1,0 +1,23 @@
+Version 1.0
+	Release
+
+Version 1.1
+	Updated documentation
+
+Version 1.2
+    Updated Visual Composer to its latest version.
+    Updated Revolution Slider to its latest version.
+    Added new CSS styles.
+
+Version 1.2.1
+    Demo data installation improved.
+
+Version 1.3
+    Google Map updated.
+    Updated Revolution Slider to its latest version.
+
+Version 1.4
+    Plugins updated.
+    Child theme updated.
+    Large logo issue fixed.
+    TOC menu displaying issue fixed.

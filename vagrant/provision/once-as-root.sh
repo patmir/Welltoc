@@ -66,8 +66,7 @@ service apache2 restart
 echo "Done!"
 
 info "Initailize databases for MySQL"
-mysql -uroot -p$ROOTDBPASSWD <<< "CREATE DATABASE g4a_panel"
-mysql -uroot -p$ROOTDBPASSWD <<< "CREATE DATABASE g4a_panel_tests"
+mysql -uroot -p$ROOTDBPASSWD <<< "CREATE DATABASE wordpress"
 echo "Done!"
 
 a2enmod rewrite
@@ -84,6 +83,6 @@ echo "Installing WordPress"
 wget "https://wordpress.org/latest.zip" -P /var/www/html/ -q
 unzip /var/www/html/latest.zip -d /var/www/html/
 rm -rf /var/www/html/index.html
-mv /var/www/html/wordpress/* .
+mv -fn /var/www/html/wordpress/* .
 rm -rf /var/www/html/wordpress
 echo "Done!"

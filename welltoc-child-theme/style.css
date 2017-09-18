@@ -1,0 +1,19 @@
+/*
+ Theme Name:   Investment Child - Customised for Welltoc
+ Theme URI:    http://investment.ancorathemes.com/
+ Description:  Investment Child Theme, customised for Welltoc
+ Author:       AncoraThemes
+ Author URI:   http://ancorathemes.com/
+ Template:     investment
+ Version:      1.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, microformats, post-formats, theme-options, threaded-comments, translation-ready
+ Text Domain:  investment-child
+*/
+.scheme_original .sc_skills_counter .sc_skills_item.sc_skills_style_1 {
+    background: none !important;
+}
+.scheme_original .sc_skills_counter .sc_skills_item.sc_skills_style_1:hover {
+    background: none !important;
+}

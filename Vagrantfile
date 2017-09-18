@@ -26,7 +26,8 @@ Vagrant.configure("2") do |config|
 
   config.vm.define options['machine_name']
   config.vm.hostname = options['machine_name']
-  #config.vm.synced_folder './', '/app', owner: 'www-data', group: 'www-data'
+  config.vm.synced_folder './welltoc-child-theme', '/var/www/html/wp-content/themes/welltoc-child-theme', owner: 'www-data', group: 'www-data'
+  config.vm.synced_folder './investment', '/var/www/html/wp-content/themes/investment', owner: 'www-data', group: 'www-data'
   config.vm.synced_folder '.', '/vagrant'
   #ssh config
   config.ssh.username = "vagrant"
