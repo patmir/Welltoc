@@ -17,3 +17,31 @@
 .scheme_original .sc_skills_counter .sc_skills_item.sc_skills_style_1:hover {
     background: none !important;
 }
+.welltoc-circle-number {
+
+    width: 2.5em;
+    height: 2.5em;
+    border: 4px outset #0e8fc8;
+    border-radius: 100%;
+    margin-left: 22px;
+    text-align: center;
+    font-size: 2em;
+    color: #0e8fc8;line-height: 2.4em;
+    float: right;
+}
+.welltoc-dashboard-icon-fix .vc_icon_element-icon{
+    margin-top: -10px;
+}
+.nf-form-title h3 {
+    font-family: "Source Sans Pro", sans-serif;
+
+    font-size: 3.067em;
+
+    line-height: 1.15em;
+
+    font-weight: 300;
+
+    margin-top: 0.1em;
+
+    margin-bottom: 0.3em;
+}

@@ -45,6 +45,9 @@ $startSlidesLabels = array(
         wp_insert_term('slide_start_top', 'category', array(
             'description' => 'Slajd na gorze Strony Glownej'
         ));
+        wp_insert_term('slide_start_video', 'category', array(
+                    'description' => 'Slajd z wideo Strony Glownej'
+                ));
 
 }
 ?>
