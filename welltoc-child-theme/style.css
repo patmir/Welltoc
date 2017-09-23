@@ -45,3 +45,12 @@
 
     margin-bottom: 0.3em;
 }
+.flat-light .esg-navigationbutton:hover, .flat-light .esg-filterbutton:hover, .flat-light .esg-sortbutton:hover, .flat-light .esg-sortbutton-order:hover, .flat-light .esg-cartbutton-order:hover, .flat-light .esg-filterbutton.selected {
+    border: 1px solid black !important;
+}
+.esg-dropdown-wrapper {
+  padding: 0;
+}
+.eg-welltoc-content a {
+  color: white !important;
+}
