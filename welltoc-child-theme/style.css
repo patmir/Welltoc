@@ -107,3 +107,44 @@ margin-top: 0.5em;
 .margin-top-48 {
   margin-top: 48px;
 }
+input[type="tel"] {
+
+    -webkit-appearance: none;
+    outline: none;
+    resize: none;
+    padding: 0.45em 1.2em;
+    border: 1px solid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    transition: all ease .3s;
+    height: 3.35em;
+
+}
+.nf-form-cont h3 {
+  color: white !important;
+}
+.white {
+  color: white;
+}
+.size-3em {
+  font-size: 2em;
+  line-height: 1.25em;
+}
+.contact_logo {
+  margin-top: 0.6em;
+margin-bottom: 0.25em;
+}
+.logo {
+  margin: 0 !important;
+}
+.logo > a {
+  margin-top: 12px;
+}
+.scheme_original .menu_main_nav > li > a {
+    font-weight: 600;
+}
