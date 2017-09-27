@@ -11,11 +11,24 @@
  Tags:         flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, microformats, post-formats, theme-options, threaded-comments, translation-ready
  Text Domain:  investment-child
 */
-.scheme_original .sc_skills_counter .sc_skills_item.sc_skills_style_1 {
-    background: none !important;
+.sc_skills_total {
+    font-size: 5em;
+    color: #0e8fc8;
+    font-weight: 600;
+    margin: 0.5em 0;
 }
-.scheme_original .sc_skills_counter .sc_skills_item.sc_skills_style_1:hover {
-    background: none !important;
+#welltoc-skill-projects > .welltoc-skills-projects-icon{
+  background: url("img/man-with-certificate.png");
+  background-size: contain;
+  background-position: center center;
+  height: 4em;
+background-repeat: no-repeat;
+margin-top: 30px;
+}
+.welltoc-skills-clients-icon {
+  font-size: 6em;
+color: black;
+margin-top: 0.5em;
 }
 .welltoc-circle-number {
 
