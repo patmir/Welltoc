@@ -52,7 +52,7 @@ blockquote cite:before {
     margin: 0.5em 0;
 }
 .welltoc-min-height-16em {
-  min-height: 16em;
+  min-height: 20em;
 }
 #welltoc-skill-projects > .welltoc-skills-projects-icon{
   background: url("img/man-with-certificate.png");
@@ -78,6 +78,12 @@ margin-top: 0.5em;
     font-size: 2em;
     color: #0e8fc8;line-height: 2.4em;
     float: right;
+}
+@media (max-width: 479px) {
+  .welltoc-circle-number {
+    float: none;
+    margin: 0 auto;
+  }
 }
 .welltoc-dashboard-icon-fix .vc_icon_element-icon{
     margin-top: -10px;
@@ -107,6 +113,12 @@ margin-top: 0.5em;
 .margin-top-48 {
   margin-top: 48px;
 }
+.scheme_original .top_panel_middle {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.scheme_original .top_panel_fixed .top_panel_position_over.top_panel_wrap_inner {
+    background: none !important;
+}
 input[type="tel"] {
 
     -webkit-appearance: none;
@@ -123,6 +135,7 @@ input[type="tel"] {
     -o-transition: all ease .3s;
     transition: all ease .3s;
     height: 3.35em;
+    border-color: #cccccc;
 
 }
 .nf-form-cont h3 {
